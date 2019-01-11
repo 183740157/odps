@@ -29,7 +29,7 @@ select /* + mapjoin(a) */
     on a.shop_name = b.shop_name;
 ```
 
-MaxCompute SQL不支持在普通Join的on条件中使用不等值表达式，or逻辑等复杂的Join条件，但是在MapJoin中可以进行如上操作。
+MaxCompute SQL不支持在普通Join的on条件中使用不等值表达式，or逻辑等复杂的Join条件，但是在MapJoin中可以进行如下操作。
 
 **示例如下：**
 
